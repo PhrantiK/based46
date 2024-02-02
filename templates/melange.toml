@@ -162,7 +162,7 @@ SpecialChar = 'base0F'
 SpecialComment = 'base0D'
 Statement = 'base08'
 StorageClass = 'base0A'
-String = 'base0B'
+String = 'green'
 Structure = 'base0E'
 Tag = 'base0A'
 Title = 'blue - b'
@@ -762,6 +762,24 @@ RainbowDelimiterOrange = 'orange'
 RainbowDelimiterGreen = 'green'
 RainbowDelimiterViolet = 'purple'
 RainbowDelimiterCyan = 'cyan'
+
+[ts-rainbow]
+rainbowcol1 = "red"
+rainbowcol2 = "yellow"
+rainbowcol3 = "green"
+rainbowcol4 = "teal"
+rainbowcol5 = "blue"
+rainbowcol6 = "magenta"
+rainbowcol7 = "purple"
+
+[ts-rainbow2]
+TSRainbowRed = "red"
+TSRainbowOrange = "orange"
+TSRainbowYellow = "yellow"
+TSRainbowGreen = "green"
+TSRainbowBlue = "blue"
+TSRainbowViolet = "purple"
+TSRainbowCyan = "cyan"
 
 [Trouble]
 TroubleCount = 'pink'

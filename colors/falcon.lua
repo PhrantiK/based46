@@ -152,7 +152,7 @@ hl(0, "SpecialChar", { fg = c.base0F, bg = 'NONE', })
 hl(0, "SpecialComment", { fg = c.base0D, bg = 'NONE', })
 hl(0, "Statement", { fg = c.base08, bg = 'NONE', })
 hl(0, "StorageClass", { fg = c.base0A, bg = 'NONE', })
-hl(0, "String", { fg = c.base0B, bg = 'NONE', })
+hl(0, "String", { fg = c.green, bg = 'NONE', })
 hl(0, "Structure", { fg = c.base0E, bg = 'NONE', })
 hl(0, "Tag", { fg = c.base0A, bg = 'NONE', })
 hl(0, "Title", { fg = c.blue, bg = 'NONE', bold=true, })
@@ -661,6 +661,24 @@ hl(0, "RainbowDelimiterOrange", { fg = c.orange, bg = 'NONE', })
 hl(0, "RainbowDelimiterGreen", { fg = c.green, bg = 'NONE', })
 hl(0, "RainbowDelimiterViolet", { fg = c.purple, bg = 'NONE', })
 hl(0, "RainbowDelimiterCyan", { fg = c.cyan, bg = 'NONE', })
+
+-- ts-rainbow
+hl(0, "rainbowcol1", { fg = c.red, bg = 'NONE', })
+hl(0, "rainbowcol2", { fg = c.yellow, bg = 'NONE', })
+hl(0, "rainbowcol3", { fg = c.green, bg = 'NONE', })
+hl(0, "rainbowcol4", { fg = c.teal, bg = 'NONE', })
+hl(0, "rainbowcol5", { fg = c.blue, bg = 'NONE', })
+hl(0, "rainbowcol6", { fg = c.magenta, bg = 'NONE', })
+hl(0, "rainbowcol7", { fg = c.purple, bg = 'NONE', })
+
+-- ts-rainbow2
+hl(0, "TSRainbowRed", { fg = c.red, bg = 'NONE', })
+hl(0, "TSRainbowOrange", { fg = c.orange, bg = 'NONE', })
+hl(0, "TSRainbowYellow", { fg = c.yellow, bg = 'NONE', })
+hl(0, "TSRainbowGreen", { fg = c.green, bg = 'NONE', })
+hl(0, "TSRainbowBlue", { fg = c.blue, bg = 'NONE', })
+hl(0, "TSRainbowViolet", { fg = c.purple, bg = 'NONE', })
+hl(0, "TSRainbowCyan", { fg = c.cyan, bg = 'NONE', })
 
 -- Trouble
 hl(0, "TroubleCount", { fg = c.pink, bg = 'NONE', })
