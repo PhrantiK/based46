@@ -683,30 +683,21 @@ DapUIUnavailableNC = 'grey_fg'
 
 [RainbowDelimiters]
 RainbowDelimiterRed = 'red'
-RainbowDelimiterYellow = 'yellow'
-RainbowDelimiterBlue = 'blue'
 RainbowDelimiterOrange = 'orange'
+RainbowDelimiterYellow = 'yellow'
 RainbowDelimiterGreen = 'green'
-RainbowDelimiterViolet = 'purple'
 RainbowDelimiterCyan = 'cyan'
+RainbowDelimiterBlue = 'blue'
+RainbowDelimiterViolet = 'purple'
 
-[ts-rainbow]
-rainbowcol1 = "red"
-rainbowcol2 = "yellow"
-rainbowcol3 = "green"
-rainbowcol4 = "teal"
-rainbowcol5 = "blue"
-rainbowcol6 = "magenta"
-rainbowcol7 = "purple"
-
-[ts-rainbow2]
-TSRainbowRed = "red"
-TSRainbowOrange = "orange"
-TSRainbowYellow = "yellow"
-TSRainbowGreen = "green"
-TSRainbowBlue = "blue"
-TSRainbowViolet = "purple"
-TSRainbowCyan = "cyan"
+[Rainbow]
+Rainbow1 = "red"
+Rainbow2 = "orange"
+Rainbow3 = "yellow"
+Rainbow4 = "green"
+Rainbow5 = "cyan"
+Rainbow6 = "blue"
+Rainbow7 = "purple"
 
 [Trouble]
 TroubleCount = 'pink'
@@ -789,12 +780,26 @@ ThemeBase06 = 'base06'
 ThemeBase07 = 'base07'
 ThemeBase08 = 'base08'
 ThemeBase09 = 'base09'
-ThemeBase0A = 'base0A'
-ThemeBase0B = 'base0B'
-ThemeBase0C = 'base0C'
-ThemeBase0D = 'base0D'
-ThemeBase0E = 'base0E'
-ThemeBase0F = 'base0F'
+ThemeBase10 = 'base0A'
+ThemeBase12 = 'base0B'
+ThemeBase13 = 'base0C'
+ThemeBase14 = 'base0D'
+ThemeBase15 = 'base0E'
+ThemeBase16 = 'base0F'
+
+[Greys]
+ThemeGreys01 = 'darker_black'
+ThemeGreys02 = 'black'
+ThemeGreys03 = 'statusline_bg'
+ThemeGreys04 = 'black2'
+ThemeGreys05 = 'one_bg'
+ThemeGreys06 = 'one_bg2'
+ThemeGreys07 = 'one_bg3'
+ThemeGreys08 = 'grey'
+ThemeGreys09 = 'grey_fg'
+ThemeGreys10 = 'grey_fg2'
+ThemeGreys11 = 'light_grey'
+ThemeGreys12 = 'white'
 
 [Language]
 ## XML
