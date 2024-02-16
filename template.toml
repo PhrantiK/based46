@@ -123,7 +123,7 @@ Todo = 'base0A base01 b'
 Type = 'base0A - - -'
 Typedef = 'base0A'
 Underlined = '- - u'
-Variable = 'base05'
+# Variable = 'white'
 
 [Treesitter]
 # Misc
@@ -160,8 +160,8 @@ Variable = 'base05'
 '@variable.parameter.builtin' = 'sun'
 
 # Keywords
-'@keyword' = 'purple - i'
-'@keyword.function' = 'dark_purple - i'
+'@keyword' = 'dark_purple - i'
+'@keyword.function' = 'purple'
 '@keyword.operator' = 'link:@operator'
 '@keyword.return' = 'link:@keyword'
 '@keyword.conditional' = 'link:Conditional'
@@ -187,7 +187,7 @@ Variable = 'base05'
 '@property' = 'vibrant_green'
 
 # Identifiers
-'@variable' = 'link:Variable'
+'@variable' = 'white'
 '@variable.member' = 'vibrant_green'
 '@variable.builtin' = 'red'
 
