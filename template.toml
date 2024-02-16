@@ -127,132 +127,155 @@ Variable = 'base05'
 
 [Treesitter]
 # Misc
-'@comment' = 'link:Comment'
 '@none' = '- -'
-'@preproc' = 'link:PreProc'
-'@define' = 'link:Define'
-'@operator' = 'link:Operator'
+'@operator' = 'base0C'
 
 # Punctuation
 '@punctuation.delimeter' = 'link:Delimiter'
 '@punctuation.bracket' = 'base05'
-'@punctuation.special' = 'link:Delimiter'
 
 # Literals
 '@string' = 'link:String'
-'@string.regex' = 'link:String'
+'@string.documentation' = 'sun'
 '@string.escape' = 'link:SpecialChar'
-'@string.special' = 'link:SpecialChar'
+'@string.regexp' = 'link:String'
 
 '@character' = 'link:Character'
 '@character.special' = 'link:SpecialChar'
 
 '@boolean' = 'link:Boolean'
 '@number' = 'link:Number'
-'@float' = 'link:Float'
+'@number.float' = 'link:Float'
 
 # Functions
 '@function' = 'link:Function'
 '@function.builtin' = 'link:Special'
 '@function.call' = 'link:Function'
 '@function.macro' = 'link:Macro'
+'@function.method' = 'link:Function'
+'@function.method.call' = 'link:Function'
 
-'@method' = 'link:Function'
-'@method.call' = 'link:Function'
-
-'@constructor' = 'link:Special'
-'@parameter' = 'yellow'
+'@constructor' = 'link:SpecialComment'
+'@variable.parameter' = 'yellow'
+'@variable.parameter.builtin' = 'sun'
 
 # Keywords
-'@keyword' = 'link:Keyword'
-'@keyword.function' = 'link:Keyword'
-'@keyword.operator' = 'link:Keyword'
+'@keyword' = 'purple'
+'@keyword.function' = 'dark_purple'
+'@keyword.operator' = 'link:@operator'
 '@keyword.return' = 'link:Keyword'
+'@keyword.conditional' = 'link:Conditional'
+'@keyword.coroutine' = 'link:@keyword'
+'@keyword.import' = 'link:Include'
+'@keyword.exception' = 'link:Exception'
+'@keyword.debug' = 'link:Debug'
+'@keyword.directive' = 'link:PreProc'
+'@keyword.directive.define' = 'link:Define'
+'@keyword.repeat' = 'link:Repeat'
+'@keyword.storage' = 'link:StorageClass'
 
-'@conditional' = 'link:Conditional'
-'@repeat' = 'link:Repeat'
-'@debug' = 'link:Debug'
-'@label' = 'link:Label'
-'@include' = 'link:Include'
-'@exception' = 'link:Exception'
+'@label' = 'blue'
 
 # Types
 '@type' = 'link:Type'
 '@type.builtin' = 'link:Type'
 '@type.definition' = 'link:Typedef'
-'@type.qualifier' = 'link:Type'
+'@type.qualifier' = 'link:Keyword'
 
-'@storageclass' = 'link:StorageClass'
+'@annotation' = 'link:PreProc'
 '@attribute' = 'link:PreProc'
-'@field' = 'vibrant_green'
 '@property' = 'vibrant_green'
 
 # Identifiers
 '@variable' = 'link:Variable'
+'@variable.member' = 'vibrant_green'
 '@variable.builtin' = 'red'
+
+'@module' = 'link:Include'
+'@module.builtin' = 'red'
+
+# Text
+'@comment' = 'link:Comment'
+'@comment.error' = 'link:WarningMsg'
+'@comment.hint' = 'link:WarningMsg'
+'@comment.note' = 'link:SpecialComment'
+'@comment.todo' = 'link:Todo'
+'@comment.warning' = 'yellow'
 
 '@constant' = 'link:Constant'
 '@constant.builtin' = 'link:Special'
 '@constant.macro' = 'link:Define'
 
-'@namespace' = 'link:Include'
-'@symbol' = 'link:Identifier'
+'@diff.plus' = 'link:DiffAdd'
+'@diff.minus' = 'link:DiffDelete'
+'@diff.delta' = 'link:DiffChange'
 
-# Text
-'@text' = 'link:None'
-'@text.danger' = 'link:WarningMsg'
-'@text.emphasis' = 'link:Italic'
-'@text.environment' = 'link:Macro'
-'@text.environment.name' = 'link:Type'
-'@text.literal' = 'link:String'
-'@text.math' = 'link:Special'
-'@text.note' = 'link:SpecialComment'
-'@text.reference' = 'link:Constant'
-'@text.strike' = '- - s'
-'@text.strong' = 'link:Bold'
-'@text.title' = 'link:Title'
-'@text.todo' = 'link:Todo'
-'@text.underline' = 'link:Underlined'
-'@text.uri' = 'link:Underlined'
-'@text.yellow' = 'link:Todo'
-
-# '@text.diff.add' = 'warn'
-# '@text.diff.delete' = 'link:Error'
+'@markup' = 'link:@none'
+'@markup.emphasis' = 'link:Italic'
+'@markup.environment' = 'link:Macro'
+'@markup.environment.name' = 'link:Type'
+'@markup.heading' = 'link:Title'
+'@markup.link' = 'teal'
+'@markup.link.checked' = 'vibrant_green'
+'@markup.link.label' = 'link:SpecialChar'
+'@markup.link.label.symbol' = 'link:Identifier'
+'@markup.link.unchecked' = 'blue'
+'@markup.link.url' = 'link:Underlined'
+'@markup.list' = 'base0C'
+'@markup.list.markdown' = 'orange - b'
+'@markup.math' = 'link:Special'
+'@markup.raw' = 'link:String'
+'@markup.raw.markdown_inline' = 'blue one_bg2'
+'@markup.strikethrough' = '- - s'
+'@markup.strong' = 'link:Bold'
+'@markup.underline' = 'link:Underlined'
 
 # Tags
 '@tag' = 'link:Tag'
-'@tag.attribute' = 'link:Identifier'
-'@tag.delimiter' = 'base04'
-
-# Conceal
-# '@conceal' = 'link:Comment'
-
-# Spell
-# '@spell' = 'link:Error'
+'@tag.attribute' = 'link:@property'
+'@tag.delimiter' = 'link:Delimiter'
 
 # LSP Semantic Token Groups
-'@lsp.type.grey_fg' = 'link:Comment'
-'@lsp.type.interface' = 'link:Identifier'
-'@lsp.type.keyword' = 'link:Keyword'
-'@lsp.type.namespace' = 'link:@namespace'
-'@lsp.type.parameter' = 'link:@parameter'
+'@lsp.type.boolean' = 'link:@boolean'
+'@lsp.type.builtinType' = 'link:@type.builtin'
+'@lsp.type.comment' = 'link:@comment'
+'@lsp.type.decorator' = 'link:@attribute'
+'@lsp.type.deriveHelper' = 'link:@attribute'
+'@lsp.type.enum' = 'link:@type'
+'@lsp.type.enumMember' = 'link:@constant'
+'@lsp.type.escapeSequence' = 'link:@string.escape'
+'@lsp.type.formatSpecifier' = 'link:@markup.list'
+'@lsp.type.generic' = 'link:@variable'
+'@lsp.type.interface' = 'cyan'
+'@lsp.type.keyword' = 'link:@keyword'
+'@lsp.type.lifetime' = 'link:@keyword.storage'
+'@lsp.type.namespace' = 'link:@module'
+'@lsp.type.number' = 'link:@number'
+'@lsp.type.operator' = 'link:@operator'
+'@lsp.type.parameter' = 'link:@variable.parameter'
 '@lsp.type.property' = 'link:@property'
-'@lsp.type.variable' = 'link:@variable'
+'@lsp.type.selfKeyword' = 'link:@variable.builtin'
+'@lsp.type.selfTypeKeyword' = 'link:@variable.builtin'
+'@lsp.type.string' = 'link:@string'
+'@lsp.type.typeAlias' = 'link:@type.definition'
+'@lsp.type.unresolvedReference' = 'red - u'
+'@lsp.typemod.class.defaultLibrary' = 'link:@type.builtin'
+'@lsp.typemod.enum.defaultLibrary' = 'link:@type.builtin'
+'@lsp.typemod.enumMember.defaultLibrary' = 'link:@constant.builtin'
 '@lsp.typemod.function.defaultLibrary' = 'link:@function.builtin'
+'@lsp.typemod.keyword.async' = 'link:@keyword.coroutine'
+'@lsp.typemod.keyword.injected' = 'link:@keyword'
+'@lsp.typemod.macro.defaultLibrary' = 'link:@function.builtin'
 '@lsp.typemod.method.defaultLibrary' = 'link:@function.builtin'
 '@lsp.typemod.operator.injected' = 'link:@operator'
 '@lsp.typemod.string.injected' = 'link:@string'
+'@lsp.typemod.struct.defaultLibrary' = 'link:@type.builtin'
+'@lsp.typemod.type.defaultLibrary' = 'cyan'
+'@lsp.typemod.typeAlias.defaultLibrary' = 'cyan'
+'@lsp.typemod.variable.callable' = 'link:@function'
 '@lsp.typemod.variable.defaultLibrary' = 'link:@variable.builtin'
 '@lsp.typemod.variable.injected' = 'link:@variable'
-
-# Non-standard
-# '@variable.global' = 'link:Identifier'
- # markdownHeadingDelimiter = { base05 = c.orange, bold = true },
- #    markdownCode = { base05 = c.teal },
- #    markdownCodeBlock = { base05 = c.teal },
- #    markdownH1 = { base05 = c.base0E, bold = true },
- #    markdownH2 = { base05 = c.blue, bold = true },
- #    markdownLinkText = { base05 = c.blue, underline = true },
+'@lsp.typemod.variable.static' = 'link:@constant'
 
 [LSP]
 DiagnosticHint = 'purple'
@@ -411,8 +434,6 @@ markdownLinkText = 'cyan - u'
 markdownFootnote = 'link:Typedef'
 markdownFootnoteDefinition = 'link:Typedef'
 markdownEscape = 'link:Special'
-'@text.literal.markdown_inline' = 'blue one_bg2'
-'@punctuation.special.markdown' = 'orange - b'
 
 [WhichKey]
 WhichKey = 'cyan'
