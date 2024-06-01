@@ -47,14 +47,14 @@ local c = {
   base05 = "#e9e9f4",
   base06 = "#f1f2f8",
   base07 = "#f7f7fb",
-  base08 = "#ea51b2",
-  base09 = "#b45bcf",
-  base0A = "#00f769",
-  base0B = "#ebff87",
-  base0C = "#a1efe4",
-  base0D = "#62d6e8",
-  base0E = "#b45bcf",
-  base0F = "#00f769",
+  base08 = "#c197fd",
+  base09 = "#ffb86c",
+  base0A = "#62d6e8",
+  base0B = "#f1fa8c",
+  base0C = "#8be9fd",
+  base0D = "#50fa7b",
+  base0E = "#ff86d3",
+  base0F = "#f8f8f2",
 }
 
 local hl = vim.api.nvim_set_hl

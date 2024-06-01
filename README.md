@@ -8,9 +8,7 @@
 
 ## colorscheme generator for neovim.
 
-`git clone --branch single-file https://github.com/titaniumtraveler/colorgen-nvim.git`
-
-`cd colorgen-nvim && cargo build --release`
+`cargo install colorgen-nvim`
 
 `make fetch`
 
