@@ -31,7 +31,8 @@ PmenuSel = 'black pmenu_bg' # TODO
 PmenuSbar = '- base02' # TODO
 PmenuThumb = '- grey'
 
-WildMenu = '- base08 b'
+# WildMenu = '- base0B b'
+WildMenu = 'base0B base03 b'
 
 MsgArea = 'base05'
 ModeMsg = 'base05 - b'
@@ -53,7 +54,7 @@ Search = 'base01 base0A'
 IncSearch = 'base01 base09'
 CurSearch = 'link:IncSearch'
 
-Visual = '- base02'
+Visual = '- base04'
 VisualNOS = 'base08 -'
 
 Folded = 'base03 base01'
@@ -132,6 +133,7 @@ Underlined = '- - u'
 # Punctuation
 '@punctuation.delimeter' = 'base0C'
 '@punctuation.bracket' = 'base05'
+# '@punctuation.special' = 'base05'
 
 # Literals
 '@string' = 'link:String'
@@ -212,27 +214,31 @@ Underlined = '- - u'
 '@diff.delta' = 'link:DiffChange'
 
 '@markup' = 'link:@none'
-'@markup.emphasis' = 'link:Italic'
-'@markup.environment' = 'link:Macro'
-'@markup.environment.name' = 'link:Type'
-'@markup.heading' = 'link:Title'
-'@markup.link' = 'teal'
-'@markup.link.checked' = 'vibrant_green'
-'@markup.link.label' = 'link:SpecialChar'
-'@markup.link.label.symbol' = 'link:Identifier'
-'@markup.link.unchecked' = 'blue'
-'@markup.link.url' = 'link:Underlined'
-'@markup.list' = 'base0C'
-'@markup.list.markdown' = 'orange - b'
-'@markup.math' = 'link:Special'
-'@markup.raw' = 'link:String'
-'@markup.raw.markdown_inline' = 'blue base04'
-'@markup.strikethrough' = '- - s'
+
 '@markup.strong' = 'link:Bold'
+'@markup.strikethrough' = '- - s'
+'@markup.italic' = 'link:Italic'
 '@markup.underline' = 'link:Underlined'
+
+'@markup.heading' = 'link:Title'
+
+# '@markup.quote' = '- base01'
+'@markup.math' = 'link:Special'
+
+'@markup.link' = 'teal'
+'@markup.link.label' = 'link:SpecialChar'
+'@markup.link.url' = 'link:Underlined'
+
+'@markup.list' = 'base0C'
+'@markup.list.unchecked' = 'pink'
+'@markup.list.checked' = 'base0B'
+
+'@markup.raw' = 'link:String'
+# '@markup.raw.markdown_inline' = 'blue base04'
 
 # Tags
 '@tag' = 'link:Tag'
+# '@tag.builtin' = ''
 '@tag.attribute' = 'link:@property'
 '@tag.delimiter' = 'link:Delimiter'
 
@@ -655,6 +661,7 @@ MiniHipatternsHack = 'blue'
 MiniHipatternsTodo = 'cyan'
 MiniHipatternsNote = 'sun'
 MiniHipatternsFFS = 'red'
+MiniIndentscopeSymbol = 'link:Comment'
 
 [Alpha]
 AlphaHeader = 'grey'
