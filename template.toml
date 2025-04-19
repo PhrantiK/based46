@@ -47,11 +47,9 @@ TermCursorNC = 'base00 base05'
 
 LineNr = 'base03'
 CursorLineNr = 'base05'
-
-DiffText = '- diff_text'
-DiffAdd = '- diff_add'
-DiffChange = '- diff_change'
-DiffDelete = '- diff_delete'
+DiffAdd = '- green2'
+DiffChange = '- blue2'
+DiffDelete = '- red'
 
 Pmenu = '- bg3'
 PmenuSel = 'bg0 ui_pmenu_bg' # TODO
@@ -535,38 +533,6 @@ GitSignsAdd = 'green'
 GitSignsChange = 'blue'
 GitSignsDelete = 'red'
 
-[NvimTree]
-NvimTreeCursorLine = '- #282b37'
-NvimTreeEmptyFolderName = 'gray1 - i'
-NvimTreeEndOfBuffer = 'bg1'
-NvimTreeExecFile = 'green'
-NvimTreeFolderIcon = 'blue'
-NvimTreeFolderName = 'blue'
-NvimTreeGitDeleted = 'red'
-NvimTreeGitDirty = 'blue'
-NvimTreeGitIgnored = 'gray1 - i'
-NvimTreeGitMerge = 'blue'
-NvimTreeGitNew = 'green2'
-NvimTreeGitRenamed = 'green2'
-NvimTreeGitStaged = 'green2'
-NvimTreeGitignoreIcon = 'red'
-NvimTreeImageFile = 'base0F'
-NvimTreeIndentMarker = '#c5c5c5'
-NvimTreeNormal = '- bg1'
-NvimTreeOpenedFolderName = 'blue - bi'
-NvimTreeRootFolder = 'base05 - b'
-NvimTreeSpecialFile = 'orange'
-NvimTreeSymlink = 'cyan'
-NvimTreeVertSplit = 'bg1 bg1'
-
-[Quickscope]
-QuickScopePrimary = '#ff00ff - b'
-QuickScopeSecondary = '#00ffff - b'
-
-[Eyeliner]
-EyelinerPrimary = '#ff00ff - b'
-EyelinerSecondary = '#00ffff - b'
-
 [Telescope]
 TelescopeBorder = 'ui_visual_line bg1'
 TelescopeNormal = 'fg bg1'
@@ -651,37 +617,6 @@ BqfPreviewRange = 'link:Visual'
 # BqfPreviewCursor = ''
 # BqfSign = ''
 
-[Navic]
-NavicIconsFile = 'base05'
-NavicIconsModule = 'yellow'
-NavicIconsNamespace = 'base05'
-NavicIconsPackage = 'base05'
-NavicIconsClass = 'orange'
-NavicIconsMethod = 'blue'
-NavicIconsProperty = 'green2'
-NavicIconsField = 'green2'
-NavicIconsConstructor = 'orange'
-NavicIconsEnum = 'orange'
-NavicIconsInterface = 'orange'
-NavicIconsFunction = 'blue'
-NavicIconsVariable = 'base0E'
-NavicIconsConstant = 'base0E'
-NavicIconsString = 'green'
-NavicIconsNumber = 'orange'
-NavicIconsBoolean = 'orange'
-NavicIconsArray = 'orange'
-NavicIconsObject = 'orange'
-NavicIconsKey = 'purple'
-NavicIconsKeyword = 'purple'
-NavicIconsNull = 'orange'
-NavicIconsEnumMember = 'green2'
-NavicIconsStruct = 'orange'
-NavicIconsEvent = 'orange'
-NavicIconsOperator = 'base05'
-NavicIconsTypeParameter = 'green2'
-NavicText = 'base05'
-NavicSeparator = 'base05'
-
 [SymbolOutline]
 SymbolsOutlineConnector = 'base04'
 
@@ -712,13 +647,6 @@ NotifyTRACEBody = 'base05 base00'
 
 [TreesitterContext]
 TreesitterContext = '- bg1'
-
-[Hop]
-HopNextKey = 'base0F'
-HopNextKey1 = 'base0A'
-HopNextKey2 = '#164a5b'
-HopUnmatched = 'base0F'
-HopPreview = '#c7ba7d'
 
 [Crates]
 CratesNvimLoading = 'base0D'
@@ -873,7 +801,6 @@ MasonHighlightBlockBold = 'link:MasonHighlightBlock'
 MasonHeaderSecondary = 'link:MasonHighlightBlock'
 MasonMuted = 'base0F'
 MasonMutedBlock = 'bg3 base0F'
-
 
 [Language]
 ## XML
